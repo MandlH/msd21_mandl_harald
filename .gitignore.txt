@@ -1,0 +1,4 @@
+# ignore all *.html and *.pdf files
+*.pdf
+*.html
+.idea/
