@@ -20,4 +20,4 @@
   ![img_1.png](target/img/img_1.png)
 
 
-**README-Mandl-Harald.md** - [click here](./README-Mandl-Harald.md)
+**README.md** - [click here](./README.md)

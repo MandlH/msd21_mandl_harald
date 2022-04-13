@@ -92,4 +92,4 @@ The git push command is used to upload local repository content to a remote repo
 
 `git push -u origin master //then login w/ your creds`
 
-**README-Mandl-Harald.md** - [click here](./README-Mandl-Harald.md)
+**README.md** - [click here](./README.md)
