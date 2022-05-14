@@ -1,6 +1,5 @@
 # ignore all *.html and *.pdf files
 *.pdf
 *.html
-Calculator/.idea/
-Calculator/target/
-.idea/
+.idea
+target
