@@ -71,5 +71,6 @@ You can also make revisions yourself by editing the [Hangmen.java](./src/Hangmen
 **GitHub** - https://github.com/MandlH \
 **exercise1.md** - [click here](exercise1.md)  
 **exercise2.md** - [click here](exercise2.md)   
-**exercise3.md** - [click here](exercise3.md)    
+**exercise3.md** - [click here](exercise3.md)  
+**exercise4.md** - [click here](exercise4.md)      
 **FH-Joanneum** - [https://www.fh-joanneum.at/](https://www.fh-joanneum.at/)

@@ -8,7 +8,7 @@
 3. import package into Application.java
 
  After the first run, a folder called target was created      
-  ![img.png](target/img/img.png)
+  ![img.png](Calculator/resources/images/newClass.png)
 
 ### run class via terminal
 
@@ -17,7 +17,7 @@
 3. run the main class
 4. Java Compile and run      
 
-  ![img_1.png](target/img/img_1.png)
+  ![img_1.png](Calculator/resources/images/terminalView.png)
 
 
 **README.md** - [click here](./README.md)
