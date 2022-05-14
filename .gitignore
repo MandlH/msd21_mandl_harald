@@ -2,3 +2,4 @@
 *.pdf
 *.html
 .idea/
+target/
