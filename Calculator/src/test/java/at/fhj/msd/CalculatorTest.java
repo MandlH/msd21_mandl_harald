@@ -29,7 +29,7 @@ public class CalculatorTest {
         Assertions.assertEquals(3, calculator.minus(5, 2));
     }
 
-    @Test
+        @Test
     public void minusActualTest(){
         Assertions.assertEquals(7-10, calculator.minus(7, 10));
     }
@@ -45,12 +45,32 @@ public class CalculatorTest {
     }
 
     @Test
+    public void divideExceptionTest(){
+
+    }
+
+    @Test
     public void multiplyExpectedTest(){
         Assertions.assertEquals(0, calculator.multiply(0, -1));
     }
 
     @Test
     public void multiplyActualTest(){
-        Assertions.assertEquals(Double.POSITIVE_INFINITY, calculator.multiply(1, 0));
+        Assertions.assertEquals(1*0, calculator.multiply(1, 0));
+    }
+
+    @Test
+    public void facultyMinusNumTest(){
+        Assertions.assertEquals(0, calculator.faculty(-20));
+    }
+
+    @Test
+    public void facultyExpectedTest(){
+        Assertions.assertEquals(24, calculator.faculty(4));
+    }
+
+    @Test
+    public void facultyActualTest(){
+        Assertions.assertEquals(5*4*3*2*1, calculator.faculty(5));
     }
 }

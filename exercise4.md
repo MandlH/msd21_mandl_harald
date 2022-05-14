@@ -34,6 +34,7 @@
 - 2 / 0 should be 0
 
 
-[Testcoverage - resources/videos/Testcoverage.mp4](resources/videos/Testcoverage.mp4)
+![Testcoverage](Calculator/resources/images/ex4_1.png)
+![Testcoverage](Calculator/resources/images/ex4_2.png)
 
 [go to README.md](./README.md)
