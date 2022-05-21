@@ -14,7 +14,7 @@ public class Application {
         System.out.println(calculator.add(5, 10));
         System.out.println(calculator.minus(21, 2));
         System.out.println(calculator.multiply(-1, 0));
-        System.out.println(calculator.divide(2, 0));
+        System.out.println(calculator.divide(0, 0));
         System.out.println(calculator.faculty(4));
 
         logger.info("It is a info logger.");
