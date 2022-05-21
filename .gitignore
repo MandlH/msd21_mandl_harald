@@ -1,5 +1,6 @@
-# ignore all *.html and *.pdf files
+# ignore all *.html, *.log and *.pdf files
 *.pdf
 *.html
 .idea
 target
+*.log

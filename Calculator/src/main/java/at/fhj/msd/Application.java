@@ -1,7 +1,5 @@
 package at.fhj.msd;
 
-import at.fhj.msd.Calculator;
-
 public class Application {
 
 
