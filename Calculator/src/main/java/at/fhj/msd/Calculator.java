@@ -7,16 +7,35 @@ public class Calculator {
 
     private static Logger logger = LogManager.getLogger();
 
+    /**
+     * adds number1 and number2
+     * @param number1 First number added to the calculator
+     * @param number2 Second number added to the calculator
+     * @return The sum of the two parameters
+     */
     public double add(double number1, double number2){
         logger.debug("add with " + number1 + " + " + number2);
         return number1 + number2;
     }
 
+    /**
+     * subtracts number2 from number1
+     * @param number1 First number added to the calculator
+     * @param number2 Second number added to the calculator
+     * @return The difference of the two numbers
+     */
     public double minus(double number1, double number2){
         logger.debug("minus with " + number1 + " - " + number2);
         return number1 - number2;
     }
 
+    /**
+     * divides number1 from number2
+     * @param number1  First number added to the calculator
+     * @param number2 Second number added to the calculator
+     * @return the quotient of the dividend (number1) and divisor (number2)
+     * @throws if number2 is 0 and write it into the logfile.
+     */
     public double divide(double number1, double number2){
         logger.debug("divide with " + number1 + " / " + number2);
 
@@ -28,6 +47,12 @@ public class Calculator {
         return 0;
     }
 
+    /**
+     * multiply number1 with number2
+     * @param number1
+     * @param number2
+     * @return the product of the two numbers
+     */
     public double multiply(double number1, double number2){
         logger.debug("multiply with " + number1 + " * " + number2);
         double temp = number1 * number2;
@@ -37,6 +62,11 @@ public class Calculator {
         return temp;
     }
 
+    /**
+     * product of all positive integers less than or equal to n (number).
+     * @param number
+     * @return faculty of a number
+     */
     public double faculty(int number){
         if(number <= 0)
             return 0;
